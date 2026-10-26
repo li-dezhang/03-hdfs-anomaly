@@ -1,0 +1,38 @@
+{
+  "dataset": "HDFS_v1",
+  "zenodo_record": "8196385",
+  "record_version": "v8 (not HDFS version)",
+  "url": "https://zenodo.org/records/8196385/files/HDFS_v1.zip?download=1",
+  "archive_bytes": 186645559,
+  "archive_md5": "76a24b4d9a6164d543fb275f89773260",
+  "archive_sha256": "04f919f2185821f23f045dca611a7586429bdabc601bd7b43f30005f8e289b01",
+  "files": [
+    {
+      "archive_member": "preprocessed/anomaly_label.csv",
+      "path": "data/raw/preprocessed/anomaly_label.csv",
+      "bytes": 18637554,
+      "sha256": "1c711ed6c8848fc3243fb4d092f172f31d128c8a6ec7f26ebba72ab931885ed8"
+    },
+    {
+      "archive_member": "preprocessed/Event_occurrence_matrix.csv",
+      "path": "data/raw/preprocessed/Event_occurrence_matrix.csv",
+      "bytes": 53099247,
+      "sha256": "59ab8b8a6d12f18f41b35e9eb0113655825b9bf9d9787c1a6f72fface7cc01a7"
+    },
+    {
+      "archive_member": "preprocessed/Event_traces.csv",
+      "path": "data/raw/preprocessed/Event_traces.csv",
+      "bytes": 125412805,
+      "sha256": "68cd80eac007b28f5ca10d8acceb104d61067e74e1c4eef2c6c6015b2d769d3c"
+    },
+    {
+      "archive_member": "preprocessed/HDFS.npz",
+      "path": "data/raw/preprocessed/HDFS.npz",
+      "bytes": 52907681,
+      "sha256": "0ccfacd40ff339f7f1755906f8121c1589a20acb8a2a625839a5caa9f66d91a7"
+    }
+  ],
+  "raw_log_extracted": false,
+  "licence_url": "https://raw.githubusercontent.com/logpai/loghub/master/LICENSE",
+  "checked_at": "2026-10-21T06:05:35.841080+00:00"
+}

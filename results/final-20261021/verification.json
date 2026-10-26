@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "test_metric_rows": 12,
+  "validation_metric_rows": 12,
+  "thresholds_reselected_from_validation_identically": true,
+  "metric_comparison_rtol": 1e-12,
+  "all_six_configurations_present": true,
+  "figures_from_exported_csv": true,
+  "inputs_sha256": {
+    "metrics.csv": "1044a304d1bb27406192800ca790c4e7a2c54835fe5a0e8dfb2d002dd20860a4",
+    "pr_curves.csv": "4bf544ebbc737007916aabb8375c570ecd39318ec83d1b88b3abe12c29a2b338",
+    "validation_metrics.csv": "24630beaaff6e4adab92c2bbcd90e5b0a7e5076ce20bce2b33be568be3852476"
+  }
+}

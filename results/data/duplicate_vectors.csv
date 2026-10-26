@@ -1,0 +1,7 @@
+representation,split,blocks,unique_vectors,blocks_with_vector_in_another_split,fraction_shared,blocks_with_vector_in_train,global_unique_vectors,global_conflicting_label_vectors,global_duplicate_rows
+frequency,train,345036,488,344804,0.9993276063946951,345036,589,9,574472
+frequency,validation,115012,323,114968,0.9996174312245679,114954,589,9,574472
+frequency,test,115013,342,114956,0.9995044038499996,114944,589,9,574472
+presence,train,345036,102,344995,0.9998811718197521,345036,119,15,574942
+presence,validation,115012,71,115008,0.9999652210204153,115004,119,15,574942
+presence,test,115013,84,115003,0.9999130533070175,115000,119,15,574942

@@ -1,0 +1,42 @@
+[
+  {
+    "path": "HDFS.log",
+    "bytes": 1577982906,
+    "compressed_bytes": 148685414
+  },
+  {
+    "path": "preprocessed/",
+    "bytes": 0,
+    "compressed_bytes": 0
+  },
+  {
+    "path": "preprocessed/anomaly_label.csv",
+    "bytes": 18637554,
+    "compressed_bytes": 6180801
+  },
+  {
+    "path": "preprocessed/Event_occurrence_matrix.csv",
+    "bytes": 53099247,
+    "compressed_bytes": 7077255
+  },
+  {
+    "path": "preprocessed/Event_traces.csv",
+    "bytes": 125412805,
+    "compressed_bytes": 17497382
+  },
+  {
+    "path": "preprocessed/HDFS.log_templates.csv",
+    "bytes": 1607,
+    "compressed_bytes": 608
+  },
+  {
+    "path": "preprocessed/HDFS.npz",
+    "bytes": 52907681,
+    "compressed_bytes": 7201997
+  },
+  {
+    "path": "README.md",
+    "bytes": 1347,
+    "compressed_bytes": 814
+  }
+]

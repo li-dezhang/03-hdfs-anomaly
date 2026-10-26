@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "compared_run": "reproduction-20261021",
+  "tables": {
+    "metrics.csv": "EXACT MATCH",
+    "validation_metrics.csv": "EXACT MATCH",
+    "sample_counts.csv": "EXACT MATCH"
+  },
+  "full_retraining_completed": true,
+  "maximum_forest_score_difference": 1.1102230246251565e-16,
+  "note": "Score difference measured from saved arrays; see reproduction comparison for per-array values."
+}

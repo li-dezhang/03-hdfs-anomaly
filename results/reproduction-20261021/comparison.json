@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "compared_run": "reproduction-20261021",
+  "csv_checks": {
+    "metrics.csv": "PASS",
+    "validation_metrics.csv": "PASS",
+    "sample_counts.csv": "PASS"
+  },
+  "report_and_readme_metric_tables_match": true,
+  "local_links_checked": 29,
+  "score_max_abs_deltas": {
+    "frequency__rule_validation.npz": 0.0,
+    "frequency__rule_test.npz": 0.0,
+    "frequency__logistic_validation.npz": 0.0,
+    "frequency__logistic_test.npz": 0.0,
+    "frequency__forest_validation.npz": 1.1102230246251565e-16,
+    "frequency__forest_test.npz": 1.1102230246251565e-16,
+    "presence__rule_validation.npz": 0.0,
+    "presence__rule_test.npz": 0.0,
+    "presence__logistic_validation.npz": 0.0,
+    "presence__logistic_test.npz": 0.0,
+    "presence__forest_validation.npz": 1.1102230246251565e-16,
+    "presence__forest_test.npz": 0.0
+  },
+  "scope": "same-platform deterministic rerun; no new test-driven choices",
+  "test_metric_rows": 12
+}

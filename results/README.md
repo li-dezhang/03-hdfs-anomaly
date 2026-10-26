@@ -1,0 +1,3 @@
+# Genuine experimental outputs
+
+`data/` contains sample/duplicate-vector diagnostics. `pilot-20261021/` uses 30,000 blocks drawn solely from the final training pool; it is not the final test evaluation. `final-20261021/` contains all six configurations and both validation-selected operating points, using every eligible block. `metrics.csv` is the primary test table; `validation_metrics.csv` is development-only. `rescored_metrics.csv` verifies the saved predictions against the first table. `verification.json` records comparison and figure-input hashes. These are real outputs; no missing experiments were filled with invented values. Local prediction arrays are excluded from Git and reproducible by the scripts.

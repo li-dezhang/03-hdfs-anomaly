@@ -1,0 +1,9 @@
+# Implementation and interpretation notes
+
+- Phase 0 planned training-fitted raw-log parsing and shared-line connected components. The user explicitly requested official preprocessing and a lightweight workflow. The current study transparently uses keyed preprocessed vectors and discloses that raw-line isolation/upstream train-only parsing were not performed. The old design remains in docs/history.
+- Initial data preparation hit a NumPy private-header API change. It was replaced with public NPY header readers; no object array was unpickled. This occurred before training and changed no data or scoring standard.
+- The pilot exposed possible overflow in Python `sum` over int8 labels when checking whether positive support exists. The check now uses `np.count_nonzero`; a regression test covers 256 positives. Pilot observed metrics were unchanged on rescoring. Original pilot logs are retained locally. Final runs used the correction.
+- The supplied archive's `preprocessed/HDFS.log_templates.csv` was read in place to interpret E4/E20 in the error discussion; it was not a model input, executed, or redistributed. Its integrity is covered by the verified archive hash.
+- Final results cover all 575,061 eligible blocks, not the pilot. The full final run was repeated with identical parameters and split. Metric equality and small forest floating-point score differences are recorded in results/final-20261021/reproduction.json.
+- Extremely high scores are not a claim of leakage-free generalization. Nearly all test vectors occur in training; shared raw lines and incident grouping are unverified. No threshold, model or feature choice was altered after test evaluation.
+- The English report is a research-training draft assisted by Codex. It is not a publication or a record of completed personal review by Dezhang Li.
